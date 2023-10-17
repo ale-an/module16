@@ -1,5 +1,5 @@
 ﻿using System;
-using ConsoleApplication1;
+using Module16;
 using Xunit;
 
 namespace Modul16.Test.xUnit

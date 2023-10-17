@@ -1,4 +1,4 @@
-﻿namespace ConsoleApplication1
+﻿namespace Module16
 {
     public class Calculator
     {

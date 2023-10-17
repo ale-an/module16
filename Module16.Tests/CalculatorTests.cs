@@ -1,5 +1,4 @@
 ﻿using System;
-using ConsoleApplication1;
 using NUnit.Framework;
 
 namespace Module16.Tests
