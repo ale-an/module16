@@ -26,5 +26,19 @@ namespace Module16.Tests
             var calculator = new Calculator();
             Assert.Throws<DivideByZeroException>(() => calculator.Division(30, 0));
         }
+
+        [Test]
+        public void Multiplication_Basic()
+        {
+            var calculator = new Calculator();
+            Assert.True(calculator.Multiplication(9, 9) == 81);
+        }
+
+        [Test]
+        public void Additional_Basic()
+        {
+            var calculator = new Calculator();
+            Assert.True(calculator.Addition(30, 30) == 60);
+        }
     }
 }
